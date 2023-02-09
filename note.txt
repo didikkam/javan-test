@@ -1,0 +1,11 @@
+https://www.itsolutionstuff.com/post/laravel-9-multi-auth-create-multiple-authentication-in-laravelexample.html
+https://imansugirman.com/menggunakan-laravel-permission-dari-spatie
+
+sudo update-alternatives --set php /usr/bin/php8.0
+
+php artisan make:controller Admin/UserController --resource
+php artisan make:seed PermissionRoleSeeder
+php artisan make:model Family --migration
+php artisan make:factory FamilyFactory --model=Family
+
+- kurang api
